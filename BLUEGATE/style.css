@@ -1,0 +1,65 @@
+@import "./assets/styles/button.css";
+@import "./assets/styles/footer.css";
+@import "./assets/styles/reservation.css";
+@import "./assets/styles/room.css";
+@import "./assets/styles/card.css";
+@import "./assets/styles/navbar.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+
+  background: url(./assets/images/bllue\ hotel.jpeg) no-repeat center center fixed;
+  background-size: cover;
+
+
+}
+
+
+.hero {
+
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+
+
+
+
+
+.hero-text h1 {
+  font-size: 80px;
+  color: #ffffff;
+  font-style: Serif;
+  text-shadow: 2px 2px 4px #003366;
+}
+
+.hero-text p {
+  font-size: 19px;
+  margin-bottom: 16px;
+}
+
+
+.section {
+  padding: 48px 16px;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+.card-footer p{
+  font-size: 18px ;
+  font-style: serif;
+  text-align: center;
+}
